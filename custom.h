@@ -13,7 +13,7 @@ void clrscr()
 }
 //This function places cursor at a desired location on screen i.e., we can change cursor position using gotoxy function.
 /*
-					  5
+		      5
 		      |	 [80]Columns
               *-------|-----------------------> (X-axis)     Example:-
               | *-----|-------------------*                          gotoxy(5,5);

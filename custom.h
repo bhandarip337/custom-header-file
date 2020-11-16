@@ -200,4 +200,4 @@ void printborder()
 	{
 		gotoxy(0,l);printf("\xBA");
 	}	
-}*/  
+}*/   

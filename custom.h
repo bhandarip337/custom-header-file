@@ -14,11 +14,11 @@ void clrscr()
 //This function places cursor at a desired location on screen i.e., we can change cursor position using gotoxy function.
 /*
 					  5
-					  |	 [80]Columns
+		      |	 [80]Columns
               *-------|-----------------------> (X-axis)     Example:-
               | *-----|-------------------*                          gotoxy(5,5);
-			  | |     |                   |                          printf("hello");
-		  5 --|-|-----*hello              |
+	      | |     |                   |                          printf("hello");
+	  5 --|-|-----*hello              |
          [25] | |                         |                  Syntax:-
          Rows | |                         |                         gotoxy(x,y)
               | |     [output screen]     |

@@ -1,0 +1,2 @@
+gcc -c drawing.c
+gcc drawing.o main.c -o main.exe
